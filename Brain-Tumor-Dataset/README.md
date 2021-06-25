@@ -1,11 +1,9 @@
 # Information About Brain MRI Dataset
 
 * This brain tumor dataset containing 3064 T1-weighted contrast-enhanced images from 233 patients with three kinds of brain tumor: 
-	i. Meningioma (708 slices), 
-	ii. Glioma (1426 slices), and 
-	iii. Pituitary Tumor (930 slices). 
-
-* The 5-Fold cross-validation indices are also provided.
+    i. Meningioma (708 slices),  
+    ii. Glioma (1426 slices), and  
+    iii. Pituitary Tumor (930 slices). 
 
 * This data is organized in MATLAB data format (.mat file). Each file stores a struct containing the following fields for an image:
 
