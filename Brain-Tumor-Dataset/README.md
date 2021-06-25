@@ -20,8 +20,9 @@ cjdata.tumorBorder: a vector storing the coordinates of discrete points on tumor
 cjdata.tumorMask: a binary image with 1s indicating tumor region
 ```
 
-* This data was used in the following papers:
+* This dataset was used in the following papers:
 	1. Cheng, Jun, et al. "Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition." PloS one 10.10 (2015).
 	2. Cheng, Jun, et al. "Retrieval of Brain Tumors by Adaptive Spatial Pooling and Fisher Vector Representation." PloS one 11.6 (2016). 
 	
-* MATLAB source codes are available on github repository: https://github.com/chengjun583/brainTumorRetrieval
+* MATLAB source codes are available on github repository: https://github.com/chengjun583/brainTumorRetrieval  
+* I have also created a jupyter notebook which consist of python code to extract the information using `h5py` library which provides classes to process `.mat` files.
