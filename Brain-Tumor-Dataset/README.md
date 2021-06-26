@@ -25,4 +25,17 @@ cjdata.tumorMask: a binary image with 1s indicating tumor region
 	2. Cheng, Jun, et al. "Retrieval of Brain Tumors by Adaptive Spatial Pooling and Fisher Vector Representation." PloS one 11.6 (2016). 
 	
 * MATLAB source codes are available on github repository: https://github.com/chengjun583/brainTumorRetrieval  
-* There is a jupyter notebook which consist of python code to extract the information using `h5py` library which provides classes to process `.mat` files.
+* There is a jupyter notebook which consist of python code to extract the information using `h5py` library which provide a `File` class to open and process `.mat` files.  
+* The following function is written to process the `.mat` file and extract the different information which is stored in an object of `File` class which has a dictionary kind of format.
+```python3
+	def mat_file_to_dict(filepath: str) -> dict:
+    tumor_class = {1: 'meningioma', 2: 'glioma', 3: 'pituitary_tumor'}
+    tumor_data_dict = {}
+    with h5py.File(filepath, mode = 'r') as image_data:
+        cjdata_struct = image_data['cjdata']
+        tumor_data_dict['class'] = tumor_class[int(cjdata_struct['label'][0, 0])]
+        tumor_data_dict['image'] = cjdata_struct['image'][:].transpose()
+        tumor_data_dict['tumor_border'] = cjdata_struct['tumorBorder'][0]
+        tumor_data_dict['tumor_mask'] = cjdata_struct['tumorMask'][:].transpose()
+    return tumor_data_dict
+```
