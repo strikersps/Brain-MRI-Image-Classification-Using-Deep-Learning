@@ -24,9 +24,9 @@ cjdata.tumorMask: a binary image with 1s indicating tumor region
 	1. Cheng, Jun, et al. "Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition." PloS one 10.10 (2015).
 	2. Cheng, Jun, et al. "Retrieval of Brain Tumors by Adaptive Spatial Pooling and Fisher Vector Representation." PloS one 11.6 (2016). 
 	
-* MATLAB source codes are available on github repository: https://github.com/chengjun583/brainTumorRetrieval  
-* There is a jupyter notebook which consist of python code to extract the information using `h5py` library which provide a `File` class to open and process `.mat` files.  
-* The following function is written to process the `.mat` file and extract the different information which is stored in an object of `File` class which has a dictionary kind of format.
+* The jupyter notebook i.e. [`Preprocessing-Mat-File.ipynb`](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/Preprocessing-Mat-File.ipynb) is also provided which consist of python code to extract the information using `h5py` library which provide a `File` class to open and process `.mat` files.  
+* The following function is written to process the `.mat` file and extract the different information which is stored in an instance of a `File` class of `h5py` library which has a dictionary kind of format.
+
 ```python3
 def mat_file_to_dict(filepath: str) -> dict:
     tumor_class = {1: 'meningioma', 2: 'glioma', 3: 'pituitary_tumor'}
@@ -39,3 +39,5 @@ def mat_file_to_dict(filepath: str) -> dict:
 		tumor_data_dict['tumor_mask'] = cjdata_struct['tumorMask'][:].transpose()
 	return tumor_data_dict
 ```
+
+**NOTE:** MATLAB source codes are available on github repository: https://github.com/chengjun583/brainTumorRetrieval  
