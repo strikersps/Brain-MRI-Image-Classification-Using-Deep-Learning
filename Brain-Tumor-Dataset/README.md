@@ -29,7 +29,7 @@ cjdata.tumorMask: a binary image with 1s indicating tumor region
 * The following function is written to process the `.mat` file and extract the different information which is stored in an object of `File` class which has a dictionary kind of format.
 ```python3
 def mat_file_to_dict(filepath: str) -> dict:
-	tumor_class = {1: 'meningioma', 2: 'glioma', 3: 'pituitary_tumor'}
+    tumor_class = {1: 'meningioma', 2: 'glioma', 3: 'pituitary_tumor'}
 	tumor_data_dict = {}
 	with h5py.File(filepath, mode = 'r') as image_data:
 		cjdata_struct = image_data['cjdata']
