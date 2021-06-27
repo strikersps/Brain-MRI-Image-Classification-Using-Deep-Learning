@@ -26,6 +26,7 @@ cjdata.tumorMask: a binary image with 1s indicating tumor region
 def mat_file_to_dict(filepath: str) -> dict:
     tumor_class = {1: 'meningioma', 2: 'glioma', 3: 'pituitary_tumor'}
 	tumor_data_dict = {}
+	
 	with h5py.File(filepath, mode = 'r') as image_data:
 		cjdata_struct = image_data['cjdata']
 		tumor_data_dict['class'] = tumor_class[int(cjdata_struct['label'][0, 0])]
