@@ -24,7 +24,7 @@ cjdata.tumorMask: a binary image with 1s indicating tumor region
 	1. Cheng, Jun, et al. "Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition." PloS one 10.10 (2015).
 	2. Cheng, Jun, et al. "Retrieval of Brain Tumors by Adaptive Spatial Pooling and Fisher Vector Representation." PloS one 11.6 (2016). 
 	
-* The jupyter notebook i.e. [`Preprocessing-Mat-File.ipynb`](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/Preprocessing-Mat-File.ipynb) is also provided which consist of python code to extract the information using `h5py` library which provide a `File` class to open and process `.mat` files.  
+* The jupyter notebook i.e. [`preprocessing_mat_files.ipynb`](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/preprocessing_mat_files.ipynb) is also provided which consist of python code to extract the information using `h5py` library which provide a `File` class to open and process `.mat` files.  
 * The following function is written to process the `.mat` file and extract the different information which is stored in an instance of a `File` class of `h5py` library which has a dictionary kind of format. The rest of source-code is just for exporting the images into the required repository after image data is being extracted from the `.mat` file using the following function.
 
 ```python3
