@@ -3,4 +3,14 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [![GitHub-Contributors](https://img.shields.io/github/contributors/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning.svg)](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/graphs/contributors) [![GitHub-Issues](https://img.shields.io/github/issues/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?style=flat-square)](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/issues) [![GitHub-Stars](https://img.shields.io/github/stars/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?style=flat-square)](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/stargazers) [![GitHub-Forks](https://img.shields.io/github/forks/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?style=flat-square)](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/network/members)  
 
-![Brain-MRI-Image-Classification-Using-Deep-Learning-Cover-Photo](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Project-Cover-Photo.jpg)
+![Brain-MRI-Image-Classification-Using-Deep-Learning-Cover-Photo](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Project-Cover-Photo.jpg)  
+
+## Introduction  
+- The occurrence of brain tumor patients in India is steadily rising, more and more cases of brain tumors are reported each year in India across varied age groups. The International Association of Cancer Registries (IARC) reported that there are over 28,000 cases of brain tumours reported in India each year and more than 24,000 people reportedly die due to brain tumours annually i.e **85.7%** people die annually from the total reported cases. Brain tumors are a serious condition and in most cases fatal in later stages if not detected early on.
+
+- Healthcare sector can benefit significantly from the field of Artificial Intelligence in developing systems which have the capability to detect these fatal diseases in the early stages because most diseases when detected early can be treated successfully before it's too late and same is the case with various different kinds of cancer.
+
+- **The goal of this project is to develop a deep learning model which has the capability to classify the brain MRI images consisting of tumors with higher accuracy.**
+
+## License  
+[![GPL-V3-Badge](https://img.shields.io/github/license/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=red&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)  
