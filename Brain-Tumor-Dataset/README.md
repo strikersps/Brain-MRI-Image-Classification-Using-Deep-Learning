@@ -33,7 +33,7 @@ def mat_file_to_dict(filepath: str) -> dict:
 		tumor_data_dict['image'] = cjdata_struct['image'][:].transpose()
 		tumor_data_dict['tumor_border'] = cjdata_struct['tumorBorder'][0]
 		tumor_data_dict['tumor_mask'] = cjdata_struct['tumorMask'][:].transpose()
-return tumor_data_dict
+	return tumor_data_dict
 ```
 
 - This dataset was used in the following papers:
