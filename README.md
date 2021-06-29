@@ -12,7 +12,9 @@
 
 - **The goal of this project is to develop a deep learning model which has the capability to classify the brain MRI images consisting of tumors with higher accuracy.**
 
-- **NOTE:** To view the jupyter notebook click on the badge: [![Jupyter-Notebook-Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-MRI-Image-Classification.ipynb)
+## How to Run  
+- To view the jupyter notebook, click on the badge: [![Jupyter-Notebook-Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-MRI-Image-Classification.ipynb)  
+- To execute the jupyter notebook in Google Colab, click on the badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_?usp=sharing)
 
 ## License  
 [![GPL-V3-Badge](https://img.shields.io/github/license/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=red&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)  
