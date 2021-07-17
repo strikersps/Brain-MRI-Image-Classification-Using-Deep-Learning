@@ -12,9 +12,17 @@
 
 - **The goal of this project is to develop a deep learning model which has the capability to classify the brain MRI images consisting of tumors with higher accuracy.**
 
-## How to Run  
+## How to Run  ![Repo-Size-Badge](https://img.shields.io/github/repo-size/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=%23ff0000&style=for-the-badge)  
 - To view the jupyter notebook, click on the badge: [![Jupyter-Notebook-Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-MRI-Image-Classification.ipynb)  
-- To execute the jupyter notebook in Google Colab, click on the badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_?usp=sharing)  
+
+- To view and execute the notebook in Google Colab, click on the badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_?usp=sharing).
+
+- Before executing the Google Colab notebook make sure you can access the dataset from your Google Colab notebook for which you can create the shortcut to the Google Drive link: https://drive.google.com/drive/folders/11QIC82FBdAyq0PUwLVNd22i-oq6lcat1?usp=sharing on your google drive and then set the path to this shortcut by changing the value of `DATA_PATH_DIR` variable in the [notebook](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_#scrollTo=_Ta1TX_tMUQl) to get access to the datasets after you have given access to your dirve using:
+```python3
+from goolge.colab import drive
+drive.mount("/content/gdrive/")
+```
+- **NOTE:** If you are going to clone this repository mind you that the total size of the repository is approximately **2.5 GB**.
 
 ## About Dataset  
 - Refer to [README.md](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/README.md) file in the [Brain Tumor Dataset directory](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/tree/main/Brain-Tumor-Dataset) in this repository to get a clear idea about the dataset and the preprocessing steps.  
