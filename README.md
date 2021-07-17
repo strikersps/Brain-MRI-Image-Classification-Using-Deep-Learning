@@ -25,8 +25,8 @@
 - Developed 3 Deep Neural Network models i.e. Multi-Layer Perceptron, AlexNet-CNN, and Inception-V3 in order to classify the Brain MRI Images to 4 different independent classes.  
 - Inception-V3 model used is a pre-trained on the ImageNet dataset which consist of 1K classes but for this project we have tuned the later part i.e. the Fully-Connected part of the model while retaining the weights of the CNN part to satisfy the needs of this work. 
 - Below table provides the results obtained on the testing dataset: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_?usp=sharing)    
-[![Model-Results-On-Testing-Dataset](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Model-Results-On-Testing-Dataset.png)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_#scrollTo=IGMxX9bNuOoy&line=2&uniqifier=1)
-- **You can clearly see the pre-trained Inception-V3 model has performed significantly well as compare to AlexNet-CNN and Multi-Layer Perceptron deep neural network model.**  
+[![Model-Results-On-Testing-Dataset](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Model-Results-On-Testing-Dataset.png)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_#scrollTo=nobbz__oKJgb)
+- **The pre-trained Inception-V3 model has performed significantly well with an accuracy of `82.57%` as compare to AlexNet-CNN and Multi-Layer Perceptron deep neural network model.**  
 
 ## Future Works  
 - To improve the robustness and accuracy of model further we can develop a efficient Data-Augmentation pipline in order to expose the CNN model to more variants of the Brain MRI Images.  
