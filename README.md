@@ -6,15 +6,32 @@
 ![Brain-MRI-Image-Classification-Using-Deep-Learning-Cover-Photo](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Project-Cover-Photo.jpg)  
 
 ## Introduction  
-- The occurrence of brain tumor patients in India is steadily rising, more and more cases of brain tumors are reported each year in India across varied age groups. The International Association of Cancer Registries (IARC) reported that there are over 28,000 cases of brain tumours reported in India each year and more than 24,000 people reportedly die due to brain tumours annually i.e **85.7%** people die annually from the total reported cases. Brain tumors are a serious condition and in most cases fatal in later stages if not detected early on.
+- The occurrence of brain tumor patients in India is steadily rising, more and more cases of brain tumors are reported each year in India across varied age groups. The International Association of Cancer Registries (IARC) reported that there are over 28,000 cases of brain tumours reported in India each year and more than 24,000 people reportedly die due to brain tumours i.e **85.7%** people die annually from the total reported cases. Brain tumors are a serious condition and in most cases fatal in later stages if not detected early on.
 
-- Healthcare sector can benefit significantly from the field of Artificial Intelligence in developing systems which have the capability to detect these fatal diseases in the early stages because most diseases when detected early can be treated successfully before it's too late and same is the case with various different kinds of cancer.
+- Healthcare sector can benefit significantly from the field of Artificial Intelligence by developing systems which have the capability to detect these fatal diseases in the early stages because most diseases when detected early can be treated successfully before it's too late and same is the case with various different kinds of cancer.
 
 - **The goal of this project is to develop a deep learning model which has the capability to classify the brain MRI images consisting of tumors with higher accuracy.**
 
 ## How to Run  
 - To view the jupyter notebook, click on the badge: [![Jupyter-Notebook-Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-MRI-Image-Classification.ipynb)  
-- To execute the jupyter notebook in Google Colab, click on the badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_?usp=sharing)
+- To execute the jupyter notebook in Google Colab, click on the badge: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_?usp=sharing)  
+
+## About Dataset  
+- Refer to [README.md](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/README.md) file in the [Brain Tumor Dataset directory](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/tree/main/Brain-Tumor-Dataset) in this repository to get a clear idea about the dataset and the preprocessing steps.  
+- The below image gives a glimpse about the different kinds of tumors with its localisation through a binary map after pre-processing the `.mat` file in which the image data was stored.  
+![Brain-MRI-Images-With-Localisation-Masks](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-MRI-With-Localisation-Masks.png)    
+
+## Results  
+- Developed 3 Deep Neural Network models i.e. Multi-Layer Perceptron, AlexNet-CNN, and Inception-V3 in order to classify the Brain MRI Images to 4 different independent classes.  
+- Inception-V3 model used is a pre-trained on the ImageNet dataset which consist of 1K classes but for this project we have tuned the later part i.e. the Fully-Connected part of the model while retaining the weights of the CNN part to satisfy the needs of this work. 
+- Below table provides the results obtained on the testing dataset:  
+    ![Model-Results-On-Testing-Dataset](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Model-Results-On-Testing-Dataset.png)
+- **You can clearly see the pre-trained Inception-V3 model has performed significantly well as compare to AlexNet-CNN and Multi-Layer Perceptron deep neural network model.**  
+
+## Future Works  
+- To improve the robustness and accuracy of model further we can develop a efficient Data-Augmentation pipline in order to expose the CNN model to more variants of the Brain MRI Images.  
+- Training process can be migrated to TPUs (Tensor Processing Units) by representing the data in TFRecord format for significant reduction in training time.  
+- Implementation of R-CNN to not only detect the tumor in an image but also label the localise the brain tumor.
 
 ## License  
 [![GPL-V3-Badge](https://img.shields.io/github/license/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=red&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)  
