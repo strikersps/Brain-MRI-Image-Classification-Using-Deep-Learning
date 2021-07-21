@@ -10,7 +10,7 @@
 
 - Healthcare sector can benefit significantly from the field of Artificial Intelligence by developing systems which have the capability to detect these fatal diseases in the early stages because most diseases when detected early can be treated successfully before it's too late and same is the case with various different kinds of cancer.
 
-- **The goal of this project is to develop a deep learning model which has the capability to classify the brain MRI images consisting of tumors with higher accuracy.**
+- **The goal of the project was to develop a deep learning model which has the capability to classify the brain MRI images consisting of tumors with higher accuracy.**
 
 ## How to Run  ![Repo-Size-Badge](https://img.shields.io/github/repo-size/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=%23ff0000&style=for-the-badge)  
 - To view the jupyter notebook, click on the badge: [![Jupyter-Notebook-Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-MRI-Image-Classification.ipynb)  
@@ -32,8 +32,8 @@ drive.mount("/content/gdrive/")
 ## Results  
 - Developed 3 Deep Neural Network models i.e. Multi-Layer Perceptron, AlexNet-CNN, and Inception-V3 in order to classify the Brain MRI Images to 4 different independent classes.  
 - Inception-V3 model used is a pre-trained on the ImageNet dataset which consist of 1K classes but for this project we have tuned the later part i.e. the Fully-Connected part of the model while retaining the weights of the CNN part to satisfy the needs of this work. 
-- Below table provides the results obtained on the testing dataset: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_?usp=sharing)    
-[![Model-Results-On-Testing-Dataset](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Model-Results-On-Testing-Dataset.png)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_#scrollTo=nobbz__oKJgb)
+- Below table provides the results obtained on the testing dataset: [![Open In Colab](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_#scrollTo=nobbz__oKJgb)  
+- [![Model-Results-On-Testing-Dataset](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Model-Results-On-Testing-Dataset.png)](https://colab.research.google.com/drive/1Nm8JLCptOMqFHRtnXZeux_qoW9wtAgD_#scrollTo=nobbz__oKJgb)
 - **The pre-trained Inception-V3 model has performed significantly well with an accuracy of `82.57%` as compare to AlexNet-CNN and Multi-Layer Perceptron deep neural network model.**  
 
 ## Future Works  
