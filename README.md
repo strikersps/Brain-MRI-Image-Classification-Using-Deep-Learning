@@ -23,7 +23,7 @@
   drive.mount("/content/gdrive/")
   ```
 ```diff
-- CAUTION: If you are going to clone this repository mind you that the total size of the repository is approximately 2.5 GB.
+- CAUTION: The total size of the repository is approximately 2.5 GB.
 ```
 ## About Dataset  
 - Refer to [README.md](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/README.md) file in the [Brain Tumor Dataset directory](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/tree/main/Brain-Tumor-Dataset) in this repository to get a clear idea about the dataset and the preprocessing steps.  
