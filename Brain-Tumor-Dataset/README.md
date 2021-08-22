@@ -1,5 +1,5 @@
 # About Brain MRI Dataset  
-- This brain tumor dataset containing 3064 T1-weighted contrast-enhanced MRI (CE-MRI) images from 233 patients with three kinds of brain tumor:  
+- This brain tumor dataset containing 3064 T1-weighted contrast-enhanced MRI (T1w CE-MRI) images from 233 patients with three kinds of brain tumor:  
   |Sr. No | Tumor Name | Number of Observations |
   |:-----:|------------|:----------------------:|
   | 1 | Meningioma | 708 |
