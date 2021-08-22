@@ -35,8 +35,8 @@ def mat_file_to_dict(filepath: str) -> dict:
 	return tumor_data_dict
 ```
 
-- This dataset was used in the following papers:
-  1.  Cheng, Jun, et al. "Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition." PloS one 10.10 (2015).
-  2.  Cheng, Jun, et al. "Retrieval of Brain Tumors by Adaptive Spatial Pooling and Fisher Vector Representation." PloS one 11.6 (2016).
+- The dataset was used in the following research papers:
+  1.  [Cheng, Jun, et al. "Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition." PloS one 10.10 (2015).](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140381)
+  2.  [Cheng, Jun, et al. "Retrieval of Brain Tumors by Adaptive Spatial Pooling and Fisher Vector Representation." PloS one 11.6 (2016).](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157112)
 
 **NOTE:** MATLAB source codes are available on github repository: https://github.com/chengjun583/brainTumorRetrieval
