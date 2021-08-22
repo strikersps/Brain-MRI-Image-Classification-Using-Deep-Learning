@@ -40,7 +40,7 @@
 ## Future Works  
 - To improve the robustness and accuracy of model further we can develop a efficient Data-Augmentation pipline in order to expose the CNN model to more variants of the Brain MRI Images.  
 - Training process can be migrated to TPUs (Tensor Processing Units) by representing the data in TFRecord format for significant reduction in training time.  
-- Implementation of R-CNN to not only detect the tumor in an image but also label the localise the brain tumor.
+- Implementation of [Region Convolutional Neural Networks (R-CNN)](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e) to not only detect the tumor in a Brain MRI Image but also label, localise and highlight the tumor region.
 
 ## License  
 [![GPL-V3-Badge](https://img.shields.io/github/license/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=red&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)  
