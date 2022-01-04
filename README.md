@@ -44,4 +44,4 @@
 - Implementation of [Region Convolutional Neural Networks (R-CNN)](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e) to not only detect the tumor in a Brain MRI Image but also label, localise and highlight the tumor region.
 
 ###### GNU General Public License v3.0  
-[![GPL-V3-Badge](https://img.shields.io/github/license/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=red&style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0.en.html)  
+[![GPL-V3-Badge](https://img.shields.io/github/license/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=red&style=for-the-badge)](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/LICENSE)  
