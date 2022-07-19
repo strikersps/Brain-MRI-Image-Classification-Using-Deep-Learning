@@ -1,12 +1,15 @@
 # About Brain MRI Dataset  
 - This brain tumor dataset containing 3064 T1-weighted contrast-enhanced MRI (T1w CE-MRI) images from 233 patients with three kinds of brain tumor:  
-  |Sr. No | Tumor Name | Number of Observations |
+<img align="right" src = "https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/Dataset-Distribution.png" height = "180"/>  
+
+  |Sr. No. | Tumor Name | Number of Observations |
   |:-----:|------------|:----------------------:|
   | 1 | Meningioma | 708 |
   | 2 | Glioma | 1426 |
   | 3 | Pituitary Tumor | 930 |
-
-- This dataset is organized in MATLAB data format (`.mat` file) which is one of the data-exchange format by MATLAB. Each file stores a `struct` containing the following fields for an image:
+  
+  
+- This dataset is organized in MATLAB data (`.mat` file) format which is one of the data-exchange format by MATLAB. Each `.mat` file stores a `struct` containing the following fields for an MRI image:
 
 ```text
 cjdata.label: 1 for meningioma, 2 for glioma, 3 for pituitary tumor
@@ -19,8 +22,8 @@ cjdata.tumorBorder: a vector storing the coordinates of discrete points on tumor
 cjdata.tumorMask: a binary image with 1s indicating tumor region
 ```
 
-- The jupyter notebook i.e. [`preprocessing_mat_files.ipynb`](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/preprocessing_mat_files.ipynb) is also provided which consist of python code to extract the information using `h5py` library which provide a `File` class to open and process `.mat` files.
-- The following function is written to process the `.mat` file and extract the different information which is stored in an instance of a `File` class of `h5py` library which has a dictionary kind of format. The rest of source-code is just for exporting the images into the required repository after image data is being extracted from the `.mat` file using the following function.
+- The jupyter notebook [`preprocessing_mat_files.ipynb`](https://nbviewer.jupyter.org/github/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/Brain-Tumor-Dataset/preprocessing_mat_files.ipynb) is also provided which consist of python code to extract the information using `h5py` library which provide a `File` class to open and process `.mat` files.
+- The following function is written to process the `.mat` file and extract the different image related information which is stored in an instance of a `File` class of `h5py` library with a dictionary kind of format. The rest of the source-code exports the images into the required directories (created on the basis of tumor classes) after image data is being extracted from the `.mat` file using the following function:
 
 ```python
 def mat_file_to_dict(filepath: str) -> dict:
@@ -39,4 +42,4 @@ def mat_file_to_dict(filepath: str) -> dict:
   1.  [Cheng, Jun, et al. "Enhanced Performance of Brain Tumor Classification via Tumor Region Augmentation and Partition." PloS one 10.10 (2015).](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140381)
   2.  [Cheng, Jun, et al. "Retrieval of Brain Tumors by Adaptive Spatial Pooling and Fisher Vector Representation." PloS one 11.6 (2016).](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157112)
 
-**NOTE:** MATLAB source codes are available on github repository: https://github.com/chengjun583/brainTumorRetrieval
+**NOTE:** MATLAB source-codes are available on the repository: https://github.com/chengjun583/brainTumorRetrieval
