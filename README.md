@@ -43,5 +43,7 @@
 - Training process can be migrated to TPUs (Tensor Processing Units) by representing the data in TFRecord format for significant reduction in training time.  
 - Implementation of [Region Convolutional Neural Networks (R-CNN)](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e) to not only detect the tumor in a Brain MRI Image but also label, localise and highlight the tumor region.
 
+#### NOTE: If you want to cite this repository, then please copy the respective style information (APA or BibTex) provided under `cite this repository` option as shown in the tutorial: https://github.blog/wp-content/uploads/2021/08/GitHub-citation-demo.gif
+
 ###### GNU General Public License v3.0  
 [![GPL-V3-Badge](https://img.shields.io/github/license/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning?color=red&style=for-the-badge)](https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning/blob/main/LICENSE)  
