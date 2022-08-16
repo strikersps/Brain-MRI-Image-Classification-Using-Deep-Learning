@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  -family-names: "Sharma"
-   given-names: "Suraj"
+ -family-names: "Sharma"
+  given-names: "Suraj"
 title: "Brain-MRI-Image-Classification-Using-Deep-Learning"
 version: 1.0.0
 url: "https://github.com/strikersps/Brain-MRI-Image-Classification-Using-Deep-Learning"
